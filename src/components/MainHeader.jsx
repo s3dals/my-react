@@ -1,4 +1,4 @@
-import { MdPostAdd, MdMessage } from 'react-icons/md';
+import { MdPostAdd, MdMessage , MdLogin} from 'react-icons/md';
 
 import classes from './MainHeader.module.css';
 
@@ -10,10 +10,17 @@ function MainHeader({ onCreatePost }) {
         React Poster
       </h1>
       <p>
+      
         <button className={classes.button} onClick={onCreatePost}>
           <MdPostAdd size={18} />
           New Post
         </button>
+        &nbsp;&nbsp;
+        <button className={classes.button} >
+        <MdLogin  size={18} />
+        Login
+        </button>
+         
       </p>
     </header>
   );
