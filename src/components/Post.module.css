@@ -20,9 +20,36 @@
     font-size: 1.25rem;
     margin: 0.25rem 0 0 0;
     color: #593884;
-    font-style: italic;
   }
   
+  .stext {
+    white-space: pre-wrap;
+    font-size: 0.85rem;
+    margin: 0.25rem 0 0 0;
+    color: #593884;
+    font-style: italic;
+    text-align: left;
+  }
+
+   
+  .delete {
+    white-space: nowrap;
+    align-items: left;
+    font-size: 0.0rem;
+    margin: 0.0rem 0 0 0;
+    color: #593884;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    gap: 0.0rem;
+    padding: 0rem 0rem;
+    cursor: pointer;
+    width: 10%;
+    height: 15%;
+  } 
+
+  .delete:hover {
+    background-color: #8c6cf7;
+  }
   @keyframes animate-in {
     from {
       opacity: 0;
