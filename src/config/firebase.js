@@ -5,8 +5,8 @@ import {getFirestore} from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_apiKey,
-    authDomain: process.env.REACT_APP_authDomain,
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTHDOMAIN,
     projectId: "my-firebase-d479a",
     storageBucket: "my-firebase-d479a.appspot.com",
     messagingSenderId: "688686201125",
