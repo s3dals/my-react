@@ -14,7 +14,7 @@ function PostsList({ isPosting, onStopPosting, isLogin, onStopLogin, authUser}) 
   const postsCollectionRef = collection(db, "posts");
 
   const getPostsList = async () => {
-    console.log(Math.random());
+    // console.log(Math.random());
     //Read the data
     // set the movie list equal to the data
     try {

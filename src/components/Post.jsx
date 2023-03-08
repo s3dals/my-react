@@ -33,7 +33,7 @@ function Post({ id, author, body, email , refresh}) {
       </p> </>: null}
       <p className={classes.author}>{author}</p>
       <p className={classes.text}>{body}</p>
-      <p className={classes.stext}>User: {email}</p>
+      {/* <p className={classes.stext}>User: {email}</p> */}
     </li>
   );
 }
