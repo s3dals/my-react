@@ -74,7 +74,7 @@ function Login({ onCancel, authUser }) {
           <button onClick={signIn}>Sign in</button>
         </p>
       </form>
-      <form className={classes.form}>
+      <form className={classes.form} onSubmit={submitHandler}>
         <p className={classes.actions}>
           <button onClick={signInWithGoogle}>Sign in with Google!</button>
         </p>
